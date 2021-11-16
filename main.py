@@ -12,19 +12,13 @@ past_tense_verb2 = input("Enter a past_tense_verb2:")
 adjective3 = input("Enter an adjective3:")
 
 
-print("Today I went to the zoo. I saw a" + adjective) 
-print(noun +"jumping up and down in its tree.") 
-print("He" + past_tense_verb)
-print(adverb + "through the large tunnel that led to its " + adjective1) 
-print(noun1 + "I got some peanuts and passed them through the cage to a gigantic gray ")
-print(noun2 + "towering above my head. ") 
-print("Feeding that animal made me hungry. I went to get a" + adjective2)
-print("scoop of ice cream. It filled my stomach. ") 
-print("Afterwards I had to" + verb) 
-print(adverb + "to catch our bus. ") 
-print("When I got home I " + past_tense_verb2)
-print("my mom for a " + adjective3)
-print("day at the zoo.")
+print(f"Today I went to the zoo. I saw a {adjective} {noun} jumping up and down in its tree.") 
+print(f"He {past_tense_verb} {adverb} through the large tunnel that led to its {adjective1} {noun1}") 
+print(f"I got some peanuts and passed them through the cage to a gigantic gray {noun2} towering above my head.")
+print(f"Feeding that animal made me hungry. I went to get a {adjective2} scoop of ice cream. It filled my stomach.") 
+print(f"Afterwards I had to {verb} {adverb} to catch our bus.")
+print(f"When I got home I {past_tense_verb2} my mom for a {adjective3} day at the zoo.") 
+
 
 
 
