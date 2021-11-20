@@ -1,0 +1,39 @@
+#Exercise 1
+# Prompting user for the degrees in Farenheit
+fahrenheit = float(input("Enter degrees in fahrenheit: "))
+# Converting fahrenheit to celsius
+celsius = round((fahrenheit - 32) * 5/9, 1)
+# Print degrees fahrenheit and it's celsius equivalent
+print(f"{fahrenheit} in Fahrenheit is equal to {celsius} in Celsius")
+
+#Exercise 2
+# Prompting user to give price of product before taxes
+pre_tax_price = float(input("Enter the product price: "))
+# Prompting user to give sales tax at 6%
+sales_tax = float(input("Enter sales tax at 6%: "))
+# Print total product price including 6% sales tax
+print(float(pre_tax_price + sales_tax))
+
+#Exercise 2
+# Prompting user to give price of product before taxes
+pre_tax_price = float(input("Enter the product price: "))
+# Prompting user to give sales tax
+sales_tax = int(input("Enter sales tax percentage: "))
+# Print total product price including sales tax
+print(float(pre_tax_price) + (round(pre_tax_price * .06, 2)))
+
+#Exercise 3
+# Prompting user to give total bill amount
+total_bill_amount = float(input("Enter total amount of bill: "))
+# Prompting user to give the percentage of the tip they would like to give
+percentage_tip = int(input("Enter the percentage tip: "))
+# Print amount of tip due
+print(float(total_bill_amount) * (round(percentage_tip / 100, 2)))
+
+#Exercise 4
+# Prompting the user to give total bill amount
+total_bill_amount = float(input("Enter total amount of bill: "))
+# Prompting the user for number of people contributing
+contributors = int(input("How many people are contributing: "))
+# Print amount owed for each contributor
+print(float(round(total_bill_amount/contributors, 2)))
