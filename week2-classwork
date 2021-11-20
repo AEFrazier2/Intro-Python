@@ -1,0 +1,67 @@
+# prompting user for first name and saving in variable
+first_name = input("Enter first name: ")
+
+# prompting user for last name and saving in variable
+last_name = input("Enter last name: ")
+
+# using formatting to print to the console
+print(f"Hello {first_name} {last_name}")
+
+# prompting user for birth month
+birth_month = input("Enter birth month: ")
+
+# prompting user for user name
+user_name = input("Enter user_name: ")
+
+# print to console
+print(birth_month)
+
+print(f"{user_name}, your birth month is {birth_month}.")
+
+# prompting user for a number
+first_number = int(input("Enter first number: "))
+
+# prompting user for a second number 
+second_number = int(input("Enter second number: "))
+
+# print sum to console
+print(first_number + second_number)
+
+# create variable 1
+var1 = 20
+
+# create variable 2
+var2 = 10
+
+# print the difference of the variables
+print(var1 - var2)
+
+# print the product of the variables
+print(var1 * var2)
+
+# print the quotient of the variables
+print(var2 / var1)
+
+# print the remainder of the variables
+print(var2 % var1)
+
+# prompting user for a first floating point number
+float1 = float(input("Enter a float: "))
+
+# prompting usr for a second floating point number
+float2 = float(input("Enter a second float: "))
+
+# Create a new variable and initialize it to the sum of the variables
+float3 = (float1 + float2)
+
+# Create a new variable and initialize it to the difference of the variables
+float4 = round((float1 - float2), 1)
+
+# Create a new variable and initialize it to the product of the variables
+float5 = round((float1 * float2), 1)
+
+# Create a new variable and initialize it to the quotient of the variables
+float6 = round((float1 / float2), 1)
+
+# Print all values to the console
+print(float1, float2, float3, float4, float5, float6)
