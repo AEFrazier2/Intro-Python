@@ -1,0 +1,8 @@
+# Welcome user to app
+print("Welcome to my Vacation Budget Planner app")
+
+# Prompting user for their name and saving in variable
+user_name = input("Enter user_name: ")
+
+# Print welcome to user and ask where they would like to travel
+print("Welcome user_name, Would you like to travel to Italy or France?")
