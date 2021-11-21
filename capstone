@@ -1,3 +1,4 @@
+Week 1
 # Welcome user to app
 print("Welcome to my Vacation Budget Planner app")
 
@@ -6,3 +7,40 @@ user_name = input("Enter user_name: ")
 
 # Print welcome to user and ask where they would like to travel
 print("Welcome user_name, Would you like to travel to Italy or France?")
+
+Week 2
+# Welcome user to app
+print("Welcome to my Vacation Budget Planner app")
+
+# Prompting user to enter their name
+name = input("Please enter your name: ")
+
+# Create a variable to hold the user's name
+user_name = ("William")
+
+# Print welcome to user and provide travel destination options
+print(f"Welcome {user_name}, our available travel destinations are Mexico or Jamaica?")
+
+# Prompting user to enter their desired destination
+destination = input("Please enter your desired destination: ")
+
+# Create a variable to hold the desired destination
+preferred_destination = ("Jamaica")
+
+# Prompting user to enter their desired number of travel days
+days = input("How many days will you be traveling: ")
+
+# Create variable to hold number of travel days
+travel_days = int(5)
+
+# Prompting user to provide spending money needed for trip
+money = input("How much spending money will you need for your trip: ")
+
+# Create variable to hold spending money needed
+spending_money = int(3000)
+
+# Calculate how much spending money per day for user trip
+print(int(spending_money / travel_days))
+
+
+
