@@ -1,0 +1,156 @@
+#Conditional Statement Overview
+#age = int(input("Enter age: "))
+
+#if age >= 21:
+    #print("You are of legal age to buy adult beverages")
+    #quantity = int(input("Enter quantity: "))
+    
+    #total_price = quantity * 1.99
+    #print(f"You owe ${total_price}")
+#else:
+    #print("You are not of the legal drinking age.")
+
+
+#count = 5
+
+#if count == 5:
+    #print("Same")
+    
+# Output is "Same"
+
+#if count != 10:
+    #print("These are not equal")
+
+# Output is "These are not equal"
+
+#if count > 3:
+    #print("5 is greater than 3")
+
+# Output is "5 is greater than 3"
+
+#if count < 7:
+    #print("5 is less than 7")
+
+# Output is "5 is less than 7"
+
+#if count >= 5:
+    #print("5 is greater than or is 5")
+
+# Output is "5 is greater than or is 5"
+
+#if count <= 6:
+    #print("5 is less than or is 5")
+
+# Output is "5 is less than or is 5"
+
+#Exercise 1
+#Create a variable to store a number
+number = 7
+
+# Prompting user to guess a number between 1-10 and store value
+value = int(input("Choose a number between 1 and 10: "))
+
+# Create if statement to check if user guess is true
+if value == number:
+    print("You are correct")
+else: print("Try again")
+
+#number_one = 5
+#number_two = 5
+#number_three = 10
+
+#if number_one == 5 and number_one < number_three:
+    #print("5 is equal to 5 and 5 is less than 10")
+    
+# output "5 is equal to 5 and 5 is less than 10"
+
+#if number_one > 3 or number_three < number_two:
+    #print("5 is greater than 3")
+    
+# The above code is checking to see if 5 is greater than 3 
+# or if 10 is less than 5, as long as one is True
+# the indented code will be executed
+
+#Exercise 2
+# Prompting user for their income and storing value
+gross_income = int(input("What is your annual gross income?: "))
+
+# Prompting user for their credit score and storing value
+credit_score = int(input("What is your credit score?: "))
+
+if gross_income > 50000 and credit_score > 650:
+    print("You are approved")
+else: print("You are not approved")
+
+#age = 21
+
+#if age > 21:
+    #print("You may enter.")
+#else: print("You may not enter.")
+
+#Exercise 3
+# Creating secret word and storing in variable
+secret_word = "abracadabra"
+
+# Prompting user to guess the secret word
+user_word = input("Guess the secret word: ")
+
+# Create if statement to check if user guess is true
+if user_word == secret_word:
+    print("You guessed correctly")
+else: print(user_word.lower("Your guess is incorrect"))
+
+#name = "Andrea"
+
+#print(name.lower())
+# Output would be "andrea"
+
+#print(name.upper())
+# Output would be "ANDREA"
+
+#keep_going = input("Would you like to continue?: ")
+
+#if keep_going == "yes":
+    #print("We are continuing")
+#elif keep_going == "no":
+    #print("We are stopping")
+#else:
+    #print("Please enter a yes or no")
+
+# Exercise 4
+# Pprompting user for a number
+first_number = int(input("Enter first number: "))
+
+# Prompting user for a second number 
+second_number = int(input("Enter second number: "))
+
+# Print user to choose calculator function
+function = int((input("Would you like to Add[1], Subtract[2], Multiply[3], Divide[4]?: ")))
+
+if function == 1:
+    print(first_number + second_number)
+elif function == 2:
+    print(first_number - second_number)
+elif function == 3:
+    print(first_number * second_number)
+elif function == 4:
+    print(first_number / second_number)
+else: print("Please enter a valid choice")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
