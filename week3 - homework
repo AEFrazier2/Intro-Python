@@ -1,0 +1,61 @@
+#Month converter
+# Prompting user to guess a number between 1-10 and store value
+month = int(input("Choose a number between 1 and 12: "))
+
+number = int(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+
+if number == 1:
+    print("January")
+if number == 2:
+    print("February")
+if number == 3:
+    print("March")
+if number == 4:
+    print("April")
+if number == 5:
+    print("May")
+if number == 6:
+    print("June")
+if number == 7:
+    print("July")
+if number == 8:
+    print("August")
+if number == 9:
+    print("September")
+if number == 10:
+    print("October")
+if number == 11:
+    print("November")
+if number == 12:
+    print("December")
+
+
+#Mini trivia
+# Prompting user to choose a trivia category and store value
+user_input = input("Choose sports, science, pop culture: ")
+
+# Prompting user for their answer
+if user_input == "sports": 
+    question1 = input("Did Michigan beat Ohio State in 2021?: ")
+if user_input == "science":
+    question2 = input("Is H2O the notation for hydrogen peroxide?: ")
+if user_input == "pop culture":
+    question3 = input("How many children does Cardi B have?: ")
+
+#Create if question and answer match correctly
+if user_input == "sports" and question1 == "yes":
+    print("Good job!!")
+elif user_input == "sports" and question1 == "no":
+    print("Please try again")
+if user_input == "science" and question2 == "no":
+    print("Awesome!!")
+elif user_input == "science" and question2 == "yes": 
+    print("Please try again")  
+if user_input == "pop culture" and question3 == 2:
+    print("Fantastic!!")
+elif user_input == "pop culture" and question3 != 2:
+    print("Please try again")
+
+
+
+
