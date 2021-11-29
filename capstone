@@ -58,18 +58,18 @@ preferred_destination = destination
 if destination == "Mexico":
     print(f"Great, {preferred_destination} sounds like an amazing trip!: ")
     print("********************************************") 
-days = int(input(f"How many days will you be staying in {preferred_destination}?: "))
-travel_days = int(days)
-total_hours = int(travel_days * 24)
-total_minutes = int(travel_days * 1440)
-print(f"The total duration of your {travel_days} day {preferred_destination} trip is {total_hours} hours, or {total_minutes} minutes")
-money = input("How much spending money in USD will you need for your trip?: ")
-spend_dollars = int(money)
-spend_per_day = float(round(spend_dollars / travel_days, 2))
-spend_pesos = float(round(spend_dollars / 21.73, 2))
-spend_conversion = (float(round(spend_pesos / travel_days, 2)))
-print(f"Your {spend_dollars} USD in spending money equals {spend_per_day} USD/day or {spend_conversion} Mexican pesos/day ")
-print("Enjoy your trip!!")
+    days = int(input(f"How many days will you be staying in {preferred_destination}?: "))
+    travel_days = int(days)
+    total_hours = int(travel_days * 24)
+    total_minutes = int(travel_days * 1440)
+    print(f"The total duration of your {travel_days} day {preferred_destination} trip is {total_hours} hours, or {total_minutes} minutes")
+    money = input("How much spending money in USD will you need for your trip?: ")
+    spend_dollars = int(money)
+    spend_per_day = float(round(spend_dollars / travel_days, 2))
+    spend_pesos = float(round(spend_dollars / 21.73, 2))
+    spend_conversion = (float(round(spend_pesos / travel_days, 2)))
+    print(f"Your {spend_dollars} USD in spending money equals {spend_per_day} USD/day or {spend_conversion} Mexican pesos/day ")
+    print("Enjoy your trip!!")
 elif destination == "Jamaica":
     print(f"Great, {preferred_destination} sounds like an amazing trip!: ")
     print("********************************************") 
@@ -87,4 +87,5 @@ elif destination == "Jamaica":
     print("Enjoy your trip!!")
 else:
     print("Please choose Mexico or Jamaica: ")
+
 
