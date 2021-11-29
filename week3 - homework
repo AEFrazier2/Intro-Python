@@ -2,7 +2,7 @@
 # Prompting user to guess a number between 1-10 and store value
 month = int(input("Choose a number between 1 and 12: "))
 
-number = int(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
+number = month
 
 if number == 1:
     print("January")
@@ -28,6 +28,9 @@ if number == 11:
     print("November")
 if number == 12:
     print("December")
+if number >= 13:
+    print("Please choose a number between 1 and 12")
+
 
 
 #Mini trivia
@@ -55,6 +58,7 @@ if user_input == "pop culture" and question3 == 2:
     print("Fantastic!!")
 elif user_input == "pop culture" and question3 != 2:
     print("Please try again")
+
 
 
 
