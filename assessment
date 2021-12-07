@@ -1,0 +1,25 @@
+name = "Andrea"
+print(f"Welcome to AToM Andrea")
+go_again = True
+menu = int(input("Would you like to Check Balance[1], Deposit[2], Withdraw[3], Exit[4]?: "))
+current_balance = 500
+while go_again == True and menu == 1 or menu == 2 or menu == 3 or menu ==4:
+    if menu == 1:
+        print(f"Your current balance is = ${current_balance} USD")
+    if menu == 2:
+        deposit = input("Enter amount to deposit: ")
+        d_balance = current_balance + deposit
+        print(f"Your new balance is = ${d_balance} USD")
+    if menu == 3:
+        withdrawal = int(input("Enter amount to withdraw: "))
+        w_balance = int(current_balance - withdrawal)
+        print(f"Your new balance is = ${w_balance} USD")
+    if menu == 4:
+        print("Thank you for choosing AToM. Enjoy your day!!")
+    if menu >= 4:
+        print("Please choose 1 thru 4: " )
+    go_again = input("Would you like another transaction?: yes or no ")
+    if go_again != "yes":
+        go_again = False
+        print("Thank you for using AToM. Enjoy your day!!")
+    
